@@ -1,0 +1,2 @@
+username,firstName,lastName,email,password,enabled,roles
+PMICOperatorProductDataRadio,PMICOperatorProductDataRadio,PMICOperatorProductDataRadio,test@test.ie,TestPassw0rd,TRUE,"PM_Operator,Cmedit_Operator,Cmedit_Administrator,PM_NBI_Operator,Network_Explorer_Administrator"

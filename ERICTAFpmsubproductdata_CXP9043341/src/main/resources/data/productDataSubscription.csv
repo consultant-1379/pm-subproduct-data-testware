@@ -1,0 +1,2 @@
+testCaseId,type,name,teamName,shouldSave,ropPeriod,maximumDeactivateTimeout,fileMonitorDuration,numberOfCounters,numberOfEvents,actionData,delayPeriod
+PM_ProductDataSubscription_FileCollection_RadioNode,PRODUCTDATA,ProductDataSubscription,Heisenberg,TRUE,FIFTEEN_MIN,120,1,0,0,|action==ASSIGN_NODE;numberOfNodes==1;nodeType==RadioNode;accessType==SHARED;ipVersion==IPv4|,5

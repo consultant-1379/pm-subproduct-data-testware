@@ -1,0 +1,3 @@
+suiteName,networkElementId,pmFunction,nodeType,platformType,technology,ipAddress,ossModelIdentity,ossPrefix,neProductVersion,port,transportType,rootUserName,rootUserPassword,secureUserName,secureUserPassword,normalUserName,normalUserPassword,addAsPrecondition,shouldSync,timeZone,name
+PM_PRODUCTDATA_RADIONODE_Heisenberg,LTE31dg2ERBS00001,TRUE,RadioNode,,,,,,,6513,TLS,netsim,netsim,netsim,netsim,netsim,netsim,,true,,
+

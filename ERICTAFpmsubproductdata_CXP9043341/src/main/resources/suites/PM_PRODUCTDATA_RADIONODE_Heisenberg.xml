@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="PM_PRODUCTDATA_RADIONODE_Heisenberg"  parallel="methods" thread-count="5">
+    <parameter name="userName" value="PMICOperatorProductDataRadio"/>
+    <parameter name="productDataSubscriptionScenarioData" value="productDataSubscription"/>
+    <test name="PmicProductDataPreCondition" preserve-order="true">
+        <classes>
+            <class name="com.ericsson.oss.services.testware.pm.sub.productdata.conditions.PmProductDataPreAndPostConditions"/>
+        </classes>
+    </test>
+    <test name="PmicProductDataScenario">
+        <classes>
+            <class name="com.ericsson.oss.services.testware.pm.sub.productdata.scenarios.pmProductDataScenario">
+            <methods>
+                <include name="CreateDeleteProductDataSubscription"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+
+</suite>

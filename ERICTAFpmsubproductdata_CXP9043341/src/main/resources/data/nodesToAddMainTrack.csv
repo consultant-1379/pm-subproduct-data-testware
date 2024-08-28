@@ -1,0 +1,2 @@
+suiteName,pmFunction,ossPrefix,rootUserName,rootUserPassword,secureUserName,secureUserPassword,normalUserName,normalUserPassword,addAsPrecondition,shouldSync,name
+PM_PRODUCTDATA_RADIONODE_Heisenberg,TRUE,,u1,pw1,netsim,netsim,u3,pw3,,true,
